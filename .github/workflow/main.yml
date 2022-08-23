@@ -3,11 +3,11 @@ name: Upload Website
 on:
   push:
     branches:
-    - master
+    - main
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latestA
     steps:
     - uses: actions/checkout@master
     - uses: jakejarvis/s3-sync-action@master
